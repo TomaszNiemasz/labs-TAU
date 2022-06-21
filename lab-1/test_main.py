@@ -55,5 +55,5 @@ class TestComparison(unittest.TestCase):
 
     def test_wrong_types(self):
         self.assertRaises(TypeError, compare_numbers, 5, True)
-        self.assertRaises(TypeError, compare_numbers, 3 + 8j, None)
+        self.assertRaises(TypeError, compare_numbers, 7 + 4j, None)
         self.assertRaises(TypeError, compare_numbers, "number", 3)

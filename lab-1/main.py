@@ -20,7 +20,7 @@ def calc_area_of_circle(radius):
 
 
 def compare_numbers(number_a, number_b):
-    if type(number_a) != int or type(number_b) == bool:
+    if type(number_a) != int or type(number_b) != int:
         raise TypeError
     if number_a == number_b:
         return True
