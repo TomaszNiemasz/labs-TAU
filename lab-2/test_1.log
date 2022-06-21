@@ -1,0 +1,10 @@
+2022-06-21 15:50:17,413 Test akceptacji cookies, wyszukania produktu na stronie ceneo.pl i uzycia sortowania
+2022-06-21 15:50:23,358 Kliknieto 'Akceptuj cookies'
+2022-06-21 15:50:25,369 Zakceptowano polityke cookies
+2022-06-21 15:50:25,450 Znaleziono wyszukiwarke
+2022-06-21 15:50:25,513 Wpisano fraze do wyszukiwarki
+2022-06-21 15:50:29,150 Kliknieto 'Szukaj'
+2022-06-21 15:50:34,652 Znaleziono szukany element po atrybucie title
+2022-06-21 15:50:36,785 Kliknieto 'Sortuj od'
+2022-06-21 15:50:40,794 Wybrano sortowanie wedlug 'najnizszej ceny z dostawa'
+2022-06-21 15:50:40,794 Test zaliczony!

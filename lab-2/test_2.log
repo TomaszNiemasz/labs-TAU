@@ -1,0 +1,16 @@
+2022-06-21 15:57:14,006 Test akceptacji cookies, wyszukania i dodania produktu do koszyka na stronie morele.net, oraz proby zalogowania do serwisu.Oczekiwany wynik: znaleziony produkt zostanie dodany do koszyka i nie uda sie zalogowac podanymi danymi
+2022-06-21 15:57:17,964 Kliknieto 'Akceptuj cookies'
+2022-06-21 15:57:20,979 Zaakceptowano polityke cookies
+2022-06-21 15:57:21,044 Znaleziono wyszukiwarke
+2022-06-21 15:57:21,084 Wpisano fraze do wyszukiwarki
+2022-06-21 15:57:24,796 Kliknieto 'Szukaj'
+2022-06-21 15:57:29,111 Znaleziono szukany element
+2022-06-21 15:57:29,746 Kliknieto 'Dodaj do koszyka'
+2022-06-21 15:57:33,363 Kliknieto 'Nie potrzebuje dodatkowej ochrony'
+2022-06-21 15:57:38,228 Kliknieto 'Zobacz koszyk'
+2022-06-21 15:57:41,608 Kliknieto 'Wybierz dostawe i platnosc'
+2022-06-21 15:57:41,802 Wpisano email
+2022-06-21 15:57:42,869 Wpisano haslo
+2022-06-21 15:57:44,242 Kliknieto 'Zaloguj sie'
+2022-06-21 15:57:46,260 Strona zwrocila komunikat o nieudanym logowaniu
+2022-06-21 15:57:46,260 Test zaliczony!
