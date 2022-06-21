@@ -25,9 +25,6 @@ class TestAddition(unittest.TestCase):
         self.assertRaises(TypeError, add, "kolo", 2)
         self.assertRaises(TypeError, add, True, False)
 
-    # def test_wrong_values(self):
-    #     self.assertRaises(ValueError, add, 2, 0)
-
 
 class TestSubtraction(unittest.TestCase):
     def test_expected_values(self):
@@ -36,9 +33,6 @@ class TestSubtraction(unittest.TestCase):
     def test_wrong_types(self):
         self.assertRaises(TypeError, sub, "kolo", 2)
         self.assertRaises(TypeError, sub, True, False)
-
-    # def test_wrong_values(self):
-    #     self.assertRaises(ValueError, sub, 2, -0.1)
 
 
 class TestRoot(unittest.TestCase):

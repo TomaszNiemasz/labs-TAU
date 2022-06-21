@@ -1,6 +1,3 @@
-import os
-
-
 def factorial(num):
     if type(num) != int:
         raise TypeError
@@ -58,24 +55,20 @@ if __name__ == '__main__':
             b = int(input("Druga liczba: "))
             print("Wynik: ", add(a, b))
             print("__________")
-            # os.system('read -s -n 1 -p "Nacisnij dowolny klawisz"')
         elif selected_action == 2:
             a = int(input("Pierwsza liczba: "))
             b = int(input("Druga liczba: "))
             print("Wynik: ", sub(a, b))
             print("__________")
-            # os.system('read -s -n 1 -p "Nacisnij dowolny klawisz"')
         elif selected_action == 3:
             a = int(input("Liczba: "))
             b = int(input("Stopien pierwiastka: "))
             print("Wynik: ", root(a, b))
             print("__________")
-            # os.system('read -s -n 1 -p "Nacisnij dowolny klawisz"')
         elif selected_action == 4:
             a = int(input("Liczba: "))
             print("Wynik: ", factorial(a))
             print("__________")
-            # os.system('read -s -n 1 -p "Nacisnij dowolny klawisz"')
         elif selected_action == 5:
             print('Wyjscie')
             exit()

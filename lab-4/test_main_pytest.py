@@ -26,12 +26,6 @@ def test_add_type(num1, num2, result):
         assert add(num1, num2) == result
 
 
-# @pytest.mark.parametrize("num1, num2, result", test_data_add_value)
-# def test_add_value(num1, num2, result):
-#     with pytest.raises(ValueError):
-#         assert add(num1, num2) == result
-
-
 @pytest.mark.parametrize("num1, num2, result", test_data_sub)
 def test_sub(num1, num2, result):
     assert sub(num1, num2) == result
@@ -41,12 +35,6 @@ def test_sub(num1, num2, result):
 def test_sub_type(num1, num2, result):
     with pytest.raises(TypeError):
         assert sub(num1, num2) == result
-
-
-# @pytest.mark.parametrize("num1, num2, result", test_data_sub_value)
-# def test_sub_value(num1, num2, result):
-#     with pytest.raises(ValueError):
-#         assert sub(num1, num2) == result
 
 
 @pytest.mark.parametrize("num1, result", test_data_factorial)
